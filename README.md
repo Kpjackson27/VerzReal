@@ -37,4 +37,13 @@ To install the dependencies:
 `npm install`
 
 To install Angular Cli: 
-`npm install -g angcli`
+<!-- `npm install -g angcli` -->
+`npm install -g angular-cli`
+npm install -g npm
+
+To update node:
+```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
