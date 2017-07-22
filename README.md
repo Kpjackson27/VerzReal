@@ -33,4 +33,8 @@ Run npm run build to launch both server and client at the same time.
 
 ## Song Notes
 
+To install the dependencies:
+`npm install`
 
+To install Angular Cli: 
+`npm install -g angcli`
