@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Kareem Notes
 Run npm run build to launch both server and client at the same time.
+
+## Song Notes
+
+
