@@ -30,3 +30,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Kareem Notes
 Run npm run build to launch both server and client at the same time.
+
+## Song Notes
+
+To install the dependencies:
+`npm install`
+
+To install Angular Cli: 
+<!-- `npm install -g angcli` -->
+`npm install -g angular-cli`
+npm install -g npm
+
+To update node:
+```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
