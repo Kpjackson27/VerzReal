@@ -8,30 +8,37 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { PostsComponent } from './posts/posts.component';
 import { PostsService } from './posts.service';
+import { HomeComponent } from './home/home.component';
+import { DiscoverComponent } from './discover/discover.component';
 
 //Define the routes
 const ROUTES = [ 
-	{	
-		path: '',
-		redirectTo: 'posts',
-		pathMatch: 'full'
- 	},
  	{
  		path: 'posts',
  		component: PostsComponent
- 	}
+ 	},
+   {
+     path: '',
+     component: HomeComponent
+   },
+   {
+     path: 'discover',
+     component: DiscoverComponent
+   }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostsComponent
+    PostsComponent,
+    HomeComponent,
+    DiscoverComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(ROUTES) //Add routes to the app
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [PostsService],
   bootstrap: [AppComponent]
